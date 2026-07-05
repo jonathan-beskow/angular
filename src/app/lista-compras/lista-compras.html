@@ -24,7 +24,7 @@
         <tr>
           <td>{{ elemento.id }}</td>
           <td>{{ elemento.nome }}</td>
-          <td><input type="checkbox" checked="!{{ elemento.comprado }}" /></td>
+          <td><input type="checkbox" [checked]="elemento.comprado" /></td>
         </tr>
       }
     </tbody>
